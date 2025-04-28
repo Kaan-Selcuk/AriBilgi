@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\teron\\Desktop\\AB C#\\CarWebsite\\",
+  "WorkspaceRootPath": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38BA066E-0C28-48CE-9D8C-707D22E12C18}|CarWebsite\\CarWebsite.csproj|c:\\users\\teron\\desktop\\ab c#\\carwebsite\\carwebsite\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{38BA066E-0C28-48CE-9D8C-707D22E12C18}|CarWebsite\\CarWebsite.csproj|c:\\users\\teron\\desktop\\ab c#\\aribilgirepositories\\carwebsite\\carwebsite\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{38BA066E-0C28-48CE-9D8C-707D22E12C18}|CarWebsite\\CarWebsite.csproj|solutionrelative:carwebsite\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38BA066E-0C28-48CE-9D8C-707D22E12C18}|CarWebsite\\CarWebsite.csproj|C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\CarWebsite\\car-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38BA066E-0C28-48CE-9D8C-707D22E12C18}|CarWebsite\\CarWebsite.csproj|solutionrelative:CarWebsite\\car-main\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,11 +26,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\CarWebsite\\car-main\\index.html",
+              "RelativeDocumentMoniker": "CarWebsite\\car-main\\index.html",
+              "ToolTip": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\CarWebsite\\car-main\\index.html",
+              "RelativeToolTip": "CarWebsite\\car-main\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-18T17:38:45.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\teron\\Desktop\\AB C#\\CarWebsite\\CarWebsite\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\CarWebsite\\Default.aspx",
               "RelativeDocumentMoniker": "CarWebsite\\Default.aspx",
-              "ToolTip": "C:\\Users\\teron\\Desktop\\AB C#\\CarWebsite\\CarWebsite\\Default.aspx",
+              "ToolTip": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\CarWebsite\\CarWebsite\\Default.aspx",
               "RelativeToolTip": "CarWebsite\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
