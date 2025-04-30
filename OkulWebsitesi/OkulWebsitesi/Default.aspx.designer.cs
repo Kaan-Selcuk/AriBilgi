@@ -24,22 +24,22 @@ namespace OkulWebsitesi
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// TextBox1 control.
+        /// ONoTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox ONoTextBox;
 
         /// <summary>
-        /// TextBox2 control.
+        /// OAdiTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox OAdiTextBox;
 
         /// <summary>
         /// EklemeButonu control.
@@ -49,6 +49,15 @@ namespace OkulWebsitesi
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button EklemeButonu;
+
+        /// <summary>
+        /// EF_Ekle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button EF_Ekle;
 
         /// <summary>
         /// GridView1 control.

@@ -12,8 +12,15 @@ namespace OkulWebsitesi
 {
     public partial class Default : System.Web.UI.Page
     {
+        private OkulEntities okulEntities;
         protected void Page_Load(object sender, EventArgs e)
         {
+            okulEntities = new OkulEntities();
+
+
+
+
+
             con = new SqlConnection();
             con.ConnectionString = "Data Source=KSK\\SQLKAAN;Initial Catalog=Okul;Integrated Security=True;";
             con.Open();
@@ -31,8 +38,8 @@ namespace OkulWebsitesi
             cmd.CommandText = "insert into Ogrenci(ogrenciNo,adSoyad) values (@ogrenciNo,@adSoyad)";
 
 
-            cmd.Parameters.AddWithValue("@ogrenciNo", TextBox1.Text);
-            cmd.Parameters.AddWithValue("@adSoyad", TextBox2.Text);
+            cmd.Parameters.AddWithValue("@ogrenciNo", ONoTextBox.Text);
+            cmd.Parameters.AddWithValue("@adSoyad", OAdiTextBox.Text);
 
             if (cmd.ExecuteNonQuery() > 0)
             {
@@ -51,6 +58,26 @@ namespace OkulWebsitesi
             GridView1.DataSource = dt;
             GridView1.DataBind();
             
+        }
+        
+        protected void EF_Ekle_Click(object sender, EventArgs e)
+        {
+            //https://www.youtube.com/watch?v=1HBMrDFZGOI
+            Ogrenci ogrenci = new Ogrenci();
+            ogrenci.adSoyad = ONoTextBox.Text;
+            ogrenci.ogrenciNo = OAdiTextBox.Text;
+            okulEntities.Ogrencis.Add(ogrenci);
+            okulEntities.SaveChanges();
+            EF_UpdateTable();
+        }
+
+
+        private void EF_UpdateTable()
+        {
+            //https://www.youtube.com/watch?v=gPK3Ien63TY
+            GridView1.DataSource = (from Ogrenci in okulEntities.Ogrencis select Ogrenci).ToList();
+            GridView1.DataBind();
+
         }
         
     }
