@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "OkulWebsitesi\\Default.aspx",
               "ToolTip": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\OkulWebsitesi\\OkulWebsitesi\\Default.aspx",
               "RelativeToolTip": "OkulWebsitesi\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-28T16:12:38.094Z"
+              "WhenOpened": "2025-04-28T16:12:38.094Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "OkulWebsitesi\\Default.aspx.cs",
               "ToolTip": "C:\\Users\\teron\\Desktop\\AB C#\\AriBilgiRepositories\\OkulWebsitesi\\OkulWebsitesi\\Default.aspx.cs",
               "RelativeToolTip": "OkulWebsitesi\\Default.aspx.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAcwE4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T16:16:55.324Z",
               "EditorCaption": ""
